@@ -1,0 +1,21 @@
+{
+"name": "weleoka/crssb",
+"type": "library",
+"description": "Simple Pie wrapper CRSSB for simplepie",
+"keywords": ["rss", "education", "wrapper"],
+"homepage": "https://github.com/weleoka/Crssb",
+"license": "MIT",
+"authors": [
+{
+"name": "Kai Weeks",
+"email": "kai.weeks@eeee.se",
+"role": "Developer"
+}
+],
+"require": {
+"simplepie/simplepie": "dev-master"
+},
+"autoload": {
+"psr-4": { "Weleoka\\": "src/" }
+}
+} 
