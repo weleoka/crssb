@@ -3,7 +3,7 @@ weleoka/crssb
 
 PHP class for wrapping simplepie parser with RSS functionality.
 
-The B version has unit testing.
+The B version has unit testing. crssb.
 
 By Kai Weeks, me@eee.se.
 
@@ -41,7 +41,7 @@ Important: For production environment if running apache-server be aware of the .
 
 * Run the composer config and update commands to get the latest packagist.com dev of weleoka/crssb istalled in the vendor directory.
 			Then again run config and update on composer.phar in the Crssb directory which already has included a composer.json file.
-			This installs SimplePie as a dependency for Crssb.
+			This installs SimplePie as a dependency for crssb.
 
 *Then copy this code into Anax-MVC's webroot/hello.php
 
