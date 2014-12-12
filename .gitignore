@@ -16,6 +16,7 @@ Thumbs.db
 
 # Package handling
 composer.lock
+/vendor
 
 # Temporary files
 *.php~
