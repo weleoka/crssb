@@ -16,7 +16,7 @@ oneFeed(), streamlineFeed() and printFeed() respectively give output.
 PHPUnit tests can be found by running the /test/config.php with PHPUnit.
 
 Please give feedback on any improvements that you would like to see. 
-And report bugs to me@eee.se!
+And report bugs to me@eee.se!!!!
 
 
 License 
