@@ -12,8 +12,8 @@ class Crssb
      *
      */
     public function __construct( $feedUrls ) {	  
-    	  // Load the dependencies.
-        require_once( __DIR__ . '/../../autoload.php' );
+    	  // Load the dependencies SimplePie.
+        require_once( __DIR__ . '/../../vendor/autoload.php' );
         // Create the object.
         $this->feed = new \SimplePie();
         
