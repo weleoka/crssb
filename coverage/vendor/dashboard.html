@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /home/bunnybook/Desktop/Mcrssb/vendor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/nv.d3.css" rel="stylesheet">
+  <link href="../css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src="../js/html5shiv.min.js"></script>
+  <script src="../js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">/home/bunnybook/Desktop/Mcrssb</a></li>
+        <li><a href="index.html">vendor</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#52">SimplePie_HTTP_Parser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#52">SimplePie_XML_Declaration_Parser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#53">SimplePie_Locator</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#54">SimplePie_Parser</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/File.php.html#56">SimplePie_File</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache.php.html#55">SimplePie_Cache</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/gzdecode.php.html#53">SimplePie_gzdecode</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache/File.php.html#51">SimplePie_Cache_File</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Content/Type/Sniffer.php.html#60">SimplePie_Content_Type_Sniffer</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#50">SimplePie_Misc</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#413">SimplePie</a></td><td class="text-right">15%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#56">SimplePie_Item</a></td><td class="text-right">19%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Restriction.php.html#55">SimplePie_Restriction</a></td><td class="text-right">23%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#55">SimplePie_Enclosure</a></td><td class="text-right">24%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parse/Date.php.html#52">SimplePie_Parse_Date</a></td><td class="text-right">42%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#56">SimplePie_IRI</a></td><td class="text-right">46%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Registry.php.html#52">SimplePie_Registry</a></td><td class="text-right">47%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#54">SimplePie_Sanitize</a></td><td class="text-right">47%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#50">SimplePie_Misc</a></td><td class="text-right">937138</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#56">SimplePie_Item</a></td><td class="text-right">147960</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#413">SimplePie</a></td><td class="text-right">94070</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#55">SimplePie_Enclosure</a></td><td class="text-right">12837</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#56">SimplePie_IRI</a></td><td class="text-right">8022</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#53">SimplePie_Locator</a></td><td class="text-right">7656</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#54">SimplePie_Parser</a></td><td class="text-right">5402</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Content/Type/Sniffer.php.html#60">SimplePie_Content_Type_Sniffer</a></td><td class="text-right">3782</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#52">SimplePie_HTTP_Parser</a></td><td class="text-right">3422</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/File.php.html#56">SimplePie_File</a></td><td class="text-right">2652</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#52">SimplePie_XML_Declaration_Parser</a></td><td class="text-right">1406</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#54">SimplePie_Sanitize</a></td><td class="text-right">1262</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parse/Date.php.html#52">SimplePie_Parse_Date</a></td><td class="text-right">573</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/gzdecode.php.html#53">SimplePie_gzdecode</a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache/File.php.html#51">SimplePie_Cache_File</a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache.php.html#55">SimplePie_Cache</a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Registry.php.html#52">SimplePie_Registry</a></td><td class="text-right">52</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Restriction.php.html#55">SimplePie_Restriction</a></td><td class="text-right">36</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#145"><abbr title="SimplePie_Locator::is_feed">is_feed</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#94"><abbr title="SimplePie_Locator::find">find</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#89"><abbr title="SimplePie_Locator::set_registry">set_registry</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#170"><abbr title="SimplePie_Locator::get_base">get_base</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#195"><abbr title="SimplePie_Locator::autodiscovery">autodiscovery</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#264"><abbr title="SimplePie_Locator::get_links">get_links</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#213"><abbr title="SimplePie_Locator::search_elements_by_tag">search_elements_by_tag</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#68"><abbr title="SimplePie_Locator::__construct">__construct</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#2952"><abbr title="SimplePie_Item::get_source">get_source</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#865"><abbr title="SimplePie_Item::get_local_date">get_local_date</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#812"><abbr title="SimplePie_Item::get_updated_date">get_updated_date</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#888"><abbr title="SimplePie_Item::get_gmdate">get_gmdate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#906"><abbr title="SimplePie_Item::get_updated_gmdate">get_updated_gmdate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#2926"><abbr title="SimplePie_Item::get_longitude">get_longitude</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#2898"><abbr title="SimplePie_Item::get_latitude">get_latitude</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#315"><abbr title="SimplePie_Locator::extension">extension</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#344"><abbr title="SimplePie_Locator::body">body</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#293"><abbr title="SimplePie_Misc::windows_1252_to_utf8">windows_1252_to_utf8</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#273"><abbr title="SimplePie_Misc::percent_encoding_normalization">percent_encoding_normalization</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#308"><abbr title="SimplePie_Misc::change_encoding">change_encoding</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#349"><abbr title="SimplePie_Misc::change_encoding_mbstring">change_encoding_mbstring</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#403"><abbr title="SimplePie_Misc::encoding">encoding</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#387"><abbr title="SimplePie_Misc::change_encoding_iconv">change_encoding_iconv</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#267"><abbr title="SimplePie_Misc::normalize_url">normalize_url</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#256"><abbr title="SimplePie_Misc::compress_parse_url">compress_parse_url</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#98"><abbr title="SimplePie_Misc::get_element">get_element</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#52"><abbr title="SimplePie_Misc::time_hms">time_hms</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#135"><abbr title="SimplePie_Misc::element_implode">element_implode</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#154"><abbr title="SimplePie_Misc::error">error</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#227"><abbr title="SimplePie_Misc::array_merge_recursive">array_merge_recursive</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#195"><abbr title="SimplePie_Misc::fix_protocol">fix_protocol</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#699"><abbr title="SimplePie_Item::get_copyright">get_copyright</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#609"><abbr title="SimplePie_Item::get_authors">get_authors</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#335"><abbr title="SimplePie_HTTP_Parser::value">value</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#315"><abbr title="SimplePie_HTTP_Parser::linear_whitespace">linear_whitespace</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#289"><abbr title="SimplePie_HTTP_Parser::name">name</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#374"><abbr title="SimplePie_HTTP_Parser::value_char">value_char</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#385"><abbr title="SimplePie_HTTP_Parser::quote">quote</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#431"><abbr title="SimplePie_HTTP_Parser::quote_escaped">quote_escaped</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#420"><abbr title="SimplePie_HTTP_Parser::quote_char">quote_char</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#241"><abbr title="SimplePie_HTTP_Parser::reason">reason</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#224"><abbr title="SimplePie_HTTP_Parser::status">status</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#136"><abbr title="SimplePie_HTTP_Parser::__construct">__construct</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/File.php.html#68"><abbr title="SimplePie_File::__construct">__construct</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#147"><abbr title="SimplePie_HTTP_Parser::parse">parse</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#175"><abbr title="SimplePie_HTTP_Parser::has_data">has_data</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#197"><abbr title="SimplePie_HTTP_Parser::http_version">http_version</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#185"><abbr title="SimplePie_HTTP_Parser::is_linear_whitespace">is_linear_whitespace</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#441"><abbr title="SimplePie_HTTP_Parser::body">body</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#458"><abbr title="SimplePie_HTTP_Parser::chunked">chunked</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#417"><abbr title="SimplePie_Item::get_category">get_category</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#386"><abbr title="SimplePie_Item::get_content">get_content</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#438"><abbr title="SimplePie_Item::get_categories">get_categories</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#502"><abbr title="SimplePie_Item::get_author">get_author</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#543"><abbr title="SimplePie_Item::get_contributors">get_contributors</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#522"><abbr title="SimplePie_Item::get_contributor">get_contributor</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#213"><abbr title="SimplePie_Item::get_id">get_id</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#123"><abbr title="SimplePie_Item::__destruct">__destruct</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#149"><abbr title="SimplePie_IRI::__set">__set</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#138"><abbr title="SimplePie_IRI::__toString">__toString</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#227"><abbr title="SimplePie_IRI::__isset">__isset</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#244"><abbr title="SimplePie_IRI::__unset">__unset</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#115"><abbr title="SimplePie_Item::__toString">__toString</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#603"><abbr title="SimplePie_IRI::remove_iunreserved_percent_encoded">remove_iunreserved_percent_encoded</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1716"><abbr title="SimplePie_Misc::get_curl_version">get_curl_version</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1743"><abbr title="SimplePie_Misc::strip_comments">strip_comments</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#182"><abbr title="SimplePie_Sanitize::strip_comments">strip_comments</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#163"><abbr title="SimplePie_Sanitize::strip_attributes">strip_attributes</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#158"><abbr title="SimplePie_Sanitize::encode_instead_of_strip">encode_instead_of_strip</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#187"><abbr title="SimplePie_Sanitize::set_output_encoding">set_output_encoding</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#433"><abbr title="SimplePie_Sanitize::do_strip_htmltags">do_strip_htmltags</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#128"><abbr title="SimplePie_XML_Declaration_Parser::parse">parse</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#116"><abbr title="SimplePie_XML_Declaration_Parser::__construct">__construct</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#139"><abbr title="SimplePie_Sanitize::strip_htmltags">strip_htmltags</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#121"><abbr title="SimplePie_Sanitize::pass_file_data">pass_file_data</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Restriction.php.html#144"><abbr title="SimplePie_Restriction::get_value">get_value</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Restriction.php.html#127"><abbr title="SimplePie_Restriction::get_type">get_type</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#81"><abbr title="SimplePie_Sanitize::remove_div">remove_div</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#86"><abbr title="SimplePie_Sanitize::set_image_handler">set_image_handler</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#103"><abbr title="SimplePie_Sanitize::pass_cache_data">pass_cache_data</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#98"><abbr title="SimplePie_Sanitize::set_registry">set_registry</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#155"><abbr title="SimplePie_XML_Declaration_Parser::has_data">has_data</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#165"><abbr title="SimplePie_XML_Declaration_Parser::skip_whitespace">skip_whitespace</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#314"><abbr title="SimplePie_XML_Declaration_Parser::standalone_equals">standalone_equals</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#300"><abbr title="SimplePie_XML_Declaration_Parser::standalone_name">standalone_name</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#328"><abbr title="SimplePie_XML_Declaration_Parser::standalone_value">standalone_value</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/gzdecode.php.html#181"><abbr title="SimplePie_gzdecode::__set">__set</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/gzdecode.php.html#202"><abbr title="SimplePie_gzdecode::parse">parse</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/gzdecode.php.html#191"><abbr title="SimplePie_gzdecode::__construct">__construct</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#280"><abbr title="SimplePie_XML_Declaration_Parser::encoding_value">encoding_value</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#266"><abbr title="SimplePie_XML_Declaration_Parser::encoding_equals">encoding_equals</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#192"><abbr title="SimplePie_XML_Declaration_Parser::before_version_name">before_version_name</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#175"><abbr title="SimplePie_XML_Declaration_Parser::get_value">get_value</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#204"><abbr title="SimplePie_XML_Declaration_Parser::version_name">version_name</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#218"><abbr title="SimplePie_XML_Declaration_Parser::version_equals">version_equals</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#252"><abbr title="SimplePie_XML_Declaration_Parser::encoding_name">encoding_name</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#232"><abbr title="SimplePie_XML_Declaration_Parser::version_value">version_value</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Restriction.php.html#110"><abbr title="SimplePie_Restriction::get_relationship">get_relationship</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Restriction.php.html#99"><abbr title="SimplePie_Restriction::__toString">__toString</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#2041"><abbr title="SimplePie_Misc::xml_encoding">xml_encoding</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#2012"><abbr title="SimplePie_Misc::parse_str">parse_str</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1972"><abbr title="SimplePie_Misc::codepoint_to_utf8">codepoint_to_utf8</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#2141"><abbr title="SimplePie_Misc::output_javascript">output_javascript</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#2180"><abbr title="SimplePie_Misc::get_build">get_build</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parse/Date.php.html#618"><abbr title="SimplePie_Parse_Date::add_callback">add_callback</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#2212"><abbr title="SimplePie_Misc::debug">debug</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1946"><abbr title="SimplePie_Misc::space_seperated_tokens">space_seperated_tokens</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1910"><abbr title="SimplePie_Misc::atom_10_content_construct_type">atom_10_content_construct_type</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1774"><abbr title="SimplePie_Misc::entities_decode">entities_decode</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1761"><abbr title="SimplePie_Misc::parse_date">parse_date</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1786"><abbr title="SimplePie_Misc::uncomment_rfc822">uncomment_rfc822</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1840"><abbr title="SimplePie_Misc::parse_mime">parse_mime</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1888"><abbr title="SimplePie_Misc::atom_10_construct_type">atom_10_construct_type</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1852"><abbr title="SimplePie_Misc::atom_03_construct_type">atom_03_construct_type</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parse/Date.php.html#863"><abbr title="SimplePie_Parse_Date::date_rfc850">date_rfc850</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parse/Date.php.html#928"><abbr title="SimplePie_Parse_Date::date_asctime">date_asctime</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#268"><abbr title="SimplePie_Parser::tag_open">tag_open</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#263"><abbr title="SimplePie_Parser::get_data">get_data</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#335"><abbr title="SimplePie_Parser::cdata">cdata</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#347"><abbr title="SimplePie_Parser::tag_close">tag_close</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Registry.php.html#114"><abbr title="SimplePie_Registry::register">register</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#370"><abbr title="SimplePie_Parser::split_ns">split_ns</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#258"><abbr title="SimplePie_Parser::get_current_byte">get_current_byte</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#253"><abbr title="SimplePie_Parser::get_current_column">get_current_column</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#73"><abbr title="SimplePie_Parser::set_registry">set_registry</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parse/Date.php.html#970"><abbr title="SimplePie_Parse_Date::date_strtotime">date_strtotime</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#78"><abbr title="SimplePie_Parser::parse">parse</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#238"><abbr title="SimplePie_Parser::get_error_code">get_error_code</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#248"><abbr title="SimplePie_Parser::get_current_line">get_current_line</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#243"><abbr title="SimplePie_Parser::get_error_string">get_error_string</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#970"><abbr title="SimplePie_Enclosure::embed">embed</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#252"><abbr title="SimplePie_HTTP_Parser::new_line">new_line</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1408"><abbr title="SimplePie::fetch_data">fetch_data</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1217"><abbr title="SimplePie::init">init</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1203"><abbr title="SimplePie::enable_exceptions">enable_exceptions</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1569"><abbr title="SimplePie::error">error</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1582"><abbr title="SimplePie::get_raw_data">get_raw_data</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1617"><abbr title="SimplePie::handle_content_type">handle_content_type</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1593"><abbr title="SimplePie::get_encoding">get_encoding</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1193"><abbr title="SimplePie::set_item_limit">set_item_limit</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1176"><abbr title="SimplePie::set_image_handler">set_image_handler</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1108"><abbr title="SimplePie::encode_instead_of_strip">encode_instead_of_strip</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1095"><abbr title="SimplePie::strip_htmltags">strip_htmltags</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1090"><abbr title="SimplePie::remove_div">remove_div</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1113"><abbr title="SimplePie::strip_attributes">strip_attributes</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1144"><abbr title="SimplePie::set_output_encoding">set_output_encoding</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1165"><abbr title="SimplePie::set_url_replacements">set_url_replacements</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1149"><abbr title="SimplePie::strip_comments">strip_comments</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1900"><abbr title="SimplePie::get_image_tags">get_image_tags</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2044"><abbr title="SimplePie::get_category">get_category</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2634"><abbr title="SimplePie::get_image_title">get_image_title</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#920"><abbr title="SimplePie_Enclosure::native_embed">native_embed</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2576"><abbr title="SimplePie::get_latitude">get_latitude</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2673"><abbr title="SimplePie::get_image_url">get_image_url</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2717"><abbr title="SimplePie::get_image_link">get_image_link</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2773"><abbr title="SimplePie::get_image_height">get_image_height</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2747"><abbr title="SimplePie::get_image_width">get_image_width</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2528"><abbr title="SimplePie::get_language">get_language</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2492"><abbr title="SimplePie::get_copyright">get_copyright</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2129"><abbr title="SimplePie::get_author">get_author</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2065"><abbr title="SimplePie::get_categories">get_categories</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2150"><abbr title="SimplePie::get_authors">get_authors</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2227"><abbr title="SimplePie::get_contributor">get_contributor</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2426"><abbr title="SimplePie::get_all_discovered_feeds">get_all_discovered_feeds</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2248"><abbr title="SimplePie::get_contributors">get_contributors</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1085"><abbr title="SimplePie::set_max_checked_feeds">set_max_checked_feeds</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1067"><abbr title="SimplePie::set_stupidly_fast">set_stupidly_fast</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#845"><abbr title="SimplePie::enable_order_by_date">enable_order_by_date</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#825"><abbr title="SimplePie::set_autodiscovery_cache_duration">set_autodiscovery_cache_duration</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#814"><abbr title="SimplePie::set_cache_duration">set_cache_duration</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#858"><abbr title="SimplePie::set_input_encoding">set_input_encoding</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#882"><abbr title="SimplePie::set_autodiscovery_level">set_autodiscovery_level</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#910"><abbr title="SimplePie::set_cache_class">set_cache_class</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#894"><abbr title="SimplePie::get_registry">get_registry</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#803"><abbr title="SimplePie::enable_cache">enable_cache</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#789"><abbr title="SimplePie::force_fsockopen">force_fsockopen</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#698"><abbr title="SimplePie::force_feed">force_feed</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#658"><abbr title="SimplePie::__toString">__toString</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#718"><abbr title="SimplePie::set_feed_url">set_feed_url</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#740"><abbr title="SimplePie::set_file">set_file</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#778"><abbr title="SimplePie::set_timeout">set_timeout</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#764"><abbr title="SimplePie::set_raw_data">set_raw_data</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#918"><abbr title="SimplePie::set_locator_class">set_locator_class</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#926"><abbr title="SimplePie::set_parser_class">set_parser_class</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1014"><abbr title="SimplePie::set_restriction_class">set_restriction_class</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1006"><abbr title="SimplePie::set_rating_class">set_rating_class</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#998"><abbr title="SimplePie::set_credit_class">set_credit_class</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1022"><abbr title="SimplePie::set_content_type_sniffer_class">set_content_type_sniffer_class</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1030"><abbr title="SimplePie::set_source_class">set_source_class</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1051"><abbr title="SimplePie::set_cache_name_function">set_cache_name_function</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1041"><abbr title="SimplePie::set_useragent">set_useragent</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#990"><abbr title="SimplePie::set_copyright_class">set_copyright_class</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#982"><abbr title="SimplePie::set_caption_class">set_caption_class</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#942"><abbr title="SimplePie::set_sanitize_class">set_sanitize_class</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#934"><abbr title="SimplePie::set_file_class">set_file_class</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#950"><abbr title="SimplePie::set_item_class">set_item_class</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#958"><abbr title="SimplePie::set_author_class">set_author_class</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#974"><abbr title="SimplePie::set_enclosure_class">set_enclosure_class</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#966"><abbr title="SimplePie::set_category_class">set_category_class</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2798"><abbr title="SimplePie::get_item_quantity">get_item_quantity</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2605"><abbr title="SimplePie::get_longitude">get_longitude</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#482"><abbr title="SimplePie_Enclosure::get_expression">get_expression</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#457"><abbr title="SimplePie_Enclosure::get_duration">get_duration</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#439"><abbr title="SimplePie_Enclosure::get_description">get_description</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#517"><abbr title="SimplePie_Enclosure::get_framerate">get_framerate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#546"><abbr title="SimplePie_Enclosure::get_hash">get_hash</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#581"><abbr title="SimplePie_Enclosure::get_height">get_height</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#564"><abbr title="SimplePie_Enclosure::get_hashes">get_hashes</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#422"><abbr title="SimplePie_Enclosure::get_credits">get_credits</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#404"><abbr title="SimplePie_Enclosure::get_credit">get_credit</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#298"><abbr title="SimplePie_Enclosure::get_caption">get_caption</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#280"><abbr title="SimplePie_Enclosure::get_bitrate">get_bitrate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#316"><abbr title="SimplePie_Enclosure::get_captions">get_captions</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#334"><abbr title="SimplePie_Enclosure::get_category">get_category</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#369"><abbr title="SimplePie_Enclosure::get_channels">get_channels</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#352"><abbr title="SimplePie_Enclosure::get_categories">get_categories</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#599"><abbr title="SimplePie_Enclosure::get_language">get_language</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#617"><abbr title="SimplePie_Enclosure::get_keyword">get_keyword</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#811"><abbr title="SimplePie_Enclosure::get_size">get_size</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#794"><abbr title="SimplePie_Enclosure::get_sampling_rate">get_sampling_rate</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#777"><abbr title="SimplePie_Enclosure::get_restrictions">get_restrictions</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#830"><abbr title="SimplePie_Enclosure::get_thumbnail">get_thumbnail</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#848"><abbr title="SimplePie_Enclosure::get_thumbnails">get_thumbnails</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#900"><abbr title="SimplePie_Enclosure::get_width">get_width</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#865"><abbr title="SimplePie_Enclosure::get_title">get_title</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#759"><abbr title="SimplePie_Enclosure::get_restriction">get_restriction</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#741"><abbr title="SimplePie_Enclosure::get_ratings">get_ratings</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#652"><abbr title="SimplePie_Enclosure::get_length">get_length</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#635"><abbr title="SimplePie_Enclosure::get_keywords">get_keywords</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#669"><abbr title="SimplePie_Enclosure::get_link">get_link</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#687"><abbr title="SimplePie_Enclosure::get_medium">get_medium</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#723"><abbr title="SimplePie_Enclosure::get_rating">get_rating</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#705"><abbr title="SimplePie_Enclosure::get_player">get_player</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Content/Type/Sniffer.php.html#256"><abbr title="SimplePie_Content_Type_Sniffer::feed_or_html">feed_or_html</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#386"><abbr title="SimplePie_Enclosure::get_copyright">get_copyright</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache/File.php.html#123"><abbr title="SimplePie_Cache_File::load">load</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache/File.php.html#103"><abbr title="SimplePie_Cache_File::save">save</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache/File.php.html#89"><abbr title="SimplePie_Cache_File::__construct">__construct</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache/File.php.html#137"><abbr title="SimplePie_Cache_File::mtime">mtime</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache/File.php.html#151"><abbr title="SimplePie_Cache_File::touch">touch</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Content/Type/Sniffer.php.html#84"><abbr title="SimplePie_Content_Type_Sniffer::get_type">get_type</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Content/Type/Sniffer.php.html#74"><abbr title="SimplePie_Content_Type_Sniffer::__construct">__construct</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache/File.php.html#165"><abbr title="SimplePie_Cache_File::unlink">unlink</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache.php.html#123"><abbr title="SimplePie_Cache::parse_URL">parse_URL</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache.php.html#112"><abbr title="SimplePie_Cache::register">register</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2967"><abbr title="SimplePie::get_favicon">get_favicon</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2955"><abbr title="SimplePie::set_favicon_handler">set_favicon_handler</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Content/Type/Sniffer.php.html#173"><abbr title="SimplePie_Content_Type_Sniffer::unknown">unknown</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Content/Type/Sniffer.php.html#222"><abbr title="SimplePie_Content_Type_Sniffer::image">image</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Content/Type/Sniffer.php.html#149"><abbr title="SimplePie_Content_Type_Sniffer::text_or_binary">text_or_binary</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2987"><abbr title="SimplePie::__call">__call</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache.php.html#100"><abbr title="SimplePie_Cache::create">create</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache.php.html#82"><abbr title="SimplePie_Cache::get_handler">get_handler</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#3035"><abbr title="SimplePie::merge_items">merge_items</a></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1660"><abbr title="SimplePie::get_type">get_type</a></a></td><td class="text-right">4%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#404"><abbr title="SimplePie_IRI::remove_dot_segments">remove_dot_segments</a></a></td><td class="text-right">8%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#467"><abbr title="SimplePie_IRI::replace_invalid_with_pct_encoding">replace_invalid_with_pct_encoding</a></a></td><td class="text-right">9%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1974"><abbr title="SimplePie::sanitize">sanitize</a></a></td><td class="text-right">12%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#666"><abbr title="SimplePie::__destruct">__destruct</a></a></td><td class="text-right">16%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#1086"><abbr title="SimplePie_Item::get_enclosures">get_enclosures</a></a></td><td class="text-right">18%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#458"><abbr title="SimplePie_Sanitize::strip_tag">strip_tag</a></a></td><td class="text-right">20%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parse/Date.php.html#710"><abbr title="SimplePie_Parse_Date::remove_rfc2822_comments">remove_rfc2822_comments</a></a></td><td class="text-right">22%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#323"><abbr title="SimplePie_Item::get_description">get_description</a></a></td><td class="text-right">27%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#625"><abbr title="SimplePie::__construct">__construct</a></a></td><td class="text-right">31%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2440"><abbr title="SimplePie::get_description">get_description</a></a></td><td class="text-right">35%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#271"><abbr title="SimplePie_IRI::absolutize">absolutize</a></a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#970"><abbr title="SimplePie_IRI::set_host">set_host</a></a></td><td class="text-right">38%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parse/Date.php.html#638"><abbr title="SimplePie_Parse_Date::date_w3cdtf">date_w3cdtf</a></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#1026"><abbr title="SimplePie_IRI::set_port">set_port</a></a></td><td class="text-right">40%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Registry.php.html#202"><abbr title="SimplePie_Registry::call">call</a></a></td><td class="text-right">41%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2001"><abbr title="SimplePie::get_title">get_title</a></a></td><td class="text-right">43%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#268"><abbr title="SimplePie_Item::get_title">get_title</a></a></td><td class="text-right">44%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1843"><abbr title="SimplePie::get_channel_tags">get_channel_tags</a></a></td><td class="text-right">48%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#1124"><abbr title="SimplePie_IRI::to_uri">to_uri</a></a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1795"><abbr title="SimplePie::get_feed_tags">get_feed_tags</a></a></td><td class="text-right">53%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#1205"><abbr title="SimplePie_Enclosure::get_real_type">get_real_type</a></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#733"><abbr title="SimplePie_Item::get_date">get_date</a></a></td><td class="text-right">57%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#975"><abbr title="SimplePie_Item::get_links">get_links</a></a></td><td class="text-right">59%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#735"><abbr title="SimplePie_IRI::scheme_normalization">scheme_normalization</a></a></td><td class="text-right">60%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2850"><abbr title="SimplePie::get_items">get_items</a></a></td><td class="text-right">61%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#927"><abbr title="SimplePie_Item::get_permalink">get_permalink</a></a></td><td class="text-right">62%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Registry.php.html#160"><abbr title="SimplePie_Registry::create">create</a></a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parse/Date.php.html#590"><abbr title="SimplePie_Parse_Date::parse">parse</a></a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#225"><abbr title="SimplePie_Sanitize::sanitize">sanitize</a></a></td><td class="text-right">65%</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2352"><abbr title="SimplePie::get_links">get_links</a></a></td><td class="text-right">67%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#403"><abbr title="SimplePie_Misc::encoding">encoding</abbr></a></td><td class="text-right">653672</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#1086"><abbr title="SimplePie_Item::get_enclosures">get_enclosures</abbr></a></td><td class="text-right">69578</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/File.php.html#68"><abbr title="SimplePie_File::__construct">__construct</abbr></a></td><td class="text-right">2652</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#970"><abbr title="SimplePie_Enclosure::embed">embed</abbr></a></td><td class="text-right">1640</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1217"><abbr title="SimplePie::init">init</abbr></a></td><td class="text-right">1482</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#603"><abbr title="SimplePie_IRI::remove_iunreserved_percent_encoded">remove_iunreserved_percent_encoded</abbr></a></td><td class="text-right">1332</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1408"><abbr title="SimplePie::fetch_data">fetch_data</abbr></a></td><td class="text-right">992</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#78"><abbr title="SimplePie_Parser::parse">parse</abbr></a></td><td class="text-right">702</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#467"><abbr title="SimplePie_IRI::replace_invalid_with_pct_encoding">replace_invalid_with_pct_encoding</abbr></a></td><td class="text-right">602</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#609"><abbr title="SimplePie_Item::get_authors">get_authors</abbr></a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#268"><abbr title="SimplePie_Parser::tag_open">tag_open</abbr></a></td><td class="text-right">552</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#213"><abbr title="SimplePie_Locator::search_elements_by_tag">search_elements_by_tag</abbr></a></td><td class="text-right">506</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1660"><abbr title="SimplePie::get_type">get_type</abbr></a></td><td class="text-right">479</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#2041"><abbr title="SimplePie_Misc::xml_encoding">xml_encoding</abbr></a></td><td class="text-right">462</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2150"><abbr title="SimplePie::get_authors">get_authors</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Content/Type/Sniffer.php.html#256"><abbr title="SimplePie_Content_Type_Sniffer::feed_or_html">feed_or_html</abbr></a></td><td class="text-right">380</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/gzdecode.php.html#202"><abbr title="SimplePie_gzdecode::parse">parse</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#94"><abbr title="SimplePie_Locator::find">find</abbr></a></td><td class="text-right">306</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#1205"><abbr title="SimplePie_Enclosure::get_real_type">get_real_type</abbr></a></td><td class="text-right">277</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2248"><abbr title="SimplePie::get_contributors">get_contributors</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#543"><abbr title="SimplePie_Item::get_contributors">get_contributors</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Content/Type/Sniffer.php.html#84"><abbr title="SimplePie_Content_Type_Sniffer::get_type">get_type</abbr></a></td><td class="text-right">272</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#195"><abbr title="SimplePie_Misc::fix_protocol">fix_protocol</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#264"><abbr title="SimplePie_Locator::get_links">get_links</abbr></a></td><td class="text-right">182</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#404"><abbr title="SimplePie_IRI::remove_dot_segments">remove_dot_segments</abbr></a></td><td class="text-right">162</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Content/Type/Sniffer.php.html#173"><abbr title="SimplePie_Content_Type_Sniffer::unknown">unknown</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#213"><abbr title="SimplePie_Item::get_id">get_id</abbr></a></td><td class="text-right">156</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#458"><abbr title="SimplePie_Sanitize::strip_tag">strip_tag</abbr></a></td><td class="text-right">147</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#273"><abbr title="SimplePie_Misc::percent_encoding_normalization">percent_encoding_normalization</abbr></a></td><td class="text-right">132</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#271"><abbr title="SimplePie_IRI::absolutize">absolutize</abbr></a></td><td class="text-right">115</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1786"><abbr title="SimplePie_Misc::uncomment_rfc822">uncomment_rfc822</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#315"><abbr title="SimplePie_Locator::extension">extension</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2065"><abbr title="SimplePie::get_categories">get_categories</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#308"><abbr title="SimplePie_Misc::change_encoding">change_encoding</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#344"><abbr title="SimplePie_Locator::body">body</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1900"><abbr title="SimplePie::get_image_tags">get_image_tags</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#154"><abbr title="SimplePie_Misc::error">error</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#370"><abbr title="SimplePie_Parser::split_ns">split_ns</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#438"><abbr title="SimplePie_Item::get_categories">get_categories</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1852"><abbr title="SimplePie_Misc::atom_03_construct_type">atom_03_construct_type</abbr></a></td><td class="text-right">110</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#3035"><abbr title="SimplePie::merge_items">merge_items</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#2212"><abbr title="SimplePie_Misc::debug">debug</abbr></a></td><td class="text-right">90</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#225"><abbr title="SimplePie_Sanitize::sanitize">sanitize</abbr></a></td><td class="text-right">78</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#349"><abbr title="SimplePie_Misc::change_encoding_mbstring">change_encoding_mbstring</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#149"><abbr title="SimplePie_IRI::__set">__set</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2528"><abbr title="SimplePie::get_language">get_language</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#98"><abbr title="SimplePie_Misc::get_element">get_element</abbr></a></td><td class="text-right">72</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#323"><abbr title="SimplePie_Item::get_description">get_description</abbr></a></td><td class="text-right">57</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1910"><abbr title="SimplePie_Misc::atom_10_content_construct_type">atom_10_content_construct_type</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Content/Type/Sniffer.php.html#222"><abbr title="SimplePie_Content_Type_Sniffer::image">image</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#458"><abbr title="SimplePie_HTTP_Parser::chunked">chunked</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#252"><abbr title="SimplePie_HTTP_Parser::new_line">new_line</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#812"><abbr title="SimplePie_Item::get_updated_date">get_updated_date</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2673"><abbr title="SimplePie::get_image_url">get_image_url</abbr></a></td><td class="text-right">56</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parse/Date.php.html#710"><abbr title="SimplePie_Parse_Date::remove_rfc2822_comments">remove_rfc2822_comments</abbr></a></td><td class="text-right">55</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2850"><abbr title="SimplePie::get_items">get_items</abbr></a></td><td class="text-right">46</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#666"><abbr title="SimplePie::__destruct">__destruct</abbr></a></td><td class="text-right">45</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#975"><abbr title="SimplePie_Item::get_links">get_links</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1972"><abbr title="SimplePie_Misc::codepoint_to_utf8">codepoint_to_utf8</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2634"><abbr title="SimplePie::get_image_title">get_image_title</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#147"><abbr title="SimplePie_HTTP_Parser::parse">parse</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#170"><abbr title="SimplePie_Locator::get_base">get_base</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2492"><abbr title="SimplePie::get_copyright">get_copyright</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#185"><abbr title="SimplePie_HTTP_Parser::is_linear_whitespace">is_linear_whitespace</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#2180"><abbr title="SimplePie_Misc::get_build">get_build</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Content/Type/Sniffer.php.html#149"><abbr title="SimplePie_Content_Type_Sniffer::text_or_binary">text_or_binary</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#433"><abbr title="SimplePie_Sanitize::do_strip_htmltags">do_strip_htmltags</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache/File.php.html#103"><abbr title="SimplePie_Cache_File::save">save</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2440"><abbr title="SimplePie::get_description">get_description</abbr></a></td><td class="text-right">37</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1843"><abbr title="SimplePie::get_channel_tags">get_channel_tags</abbr></a></td><td class="text-right">31</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1888"><abbr title="SimplePie_Misc::atom_10_construct_type">atom_10_construct_type</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2605"><abbr title="SimplePie::get_longitude">get_longitude</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#347"><abbr title="SimplePie_Parser::tag_close">tag_close</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#128"><abbr title="SimplePie_XML_Declaration_Parser::parse">parse</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#335"><abbr title="SimplePie_HTTP_Parser::value">value</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2987"><abbr title="SimplePie::__call">__call</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#385"><abbr title="SimplePie_HTTP_Parser::quote">quote</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#52"><abbr title="SimplePie_Misc::time_hms">time_hms</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#315"><abbr title="SimplePie_HTTP_Parser::linear_whitespace">linear_whitespace</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#328"><abbr title="SimplePie_XML_Declaration_Parser::standalone_value">standalone_value</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parse/Date.php.html#863"><abbr title="SimplePie_Parse_Date::date_rfc850">date_rfc850</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#386"><abbr title="SimplePie_Item::get_content">get_content</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#2926"><abbr title="SimplePie_Item::get_longitude">get_longitude</abbr></a></td><td class="text-right">30</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2352"><abbr title="SimplePie::get_links">get_links</abbr></a></td><td class="text-right">28</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#733"><abbr title="SimplePie_Item::get_date">get_date</abbr></a></td><td class="text-right">28</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#735"><abbr title="SimplePie_IRI::scheme_normalization">scheme_normalization</abbr></a></td><td class="text-right">23</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#268"><abbr title="SimplePie_Item::get_title">get_title</abbr></a></td><td class="text-right">22</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#625"><abbr title="SimplePie::__construct">__construct</abbr></a></td><td class="text-right">22</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parse/Date.php.html#638"><abbr title="SimplePie_Parse_Date::date_w3cdtf">date_w3cdtf</abbr></a></td><td class="text-right">21</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#175"><abbr title="SimplePie_XML_Declaration_Parser::get_value">get_value</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#865"><abbr title="SimplePie_Item::get_local_date">get_local_date</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#123"><abbr title="SimplePie_Item::__destruct">__destruct</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2717"><abbr title="SimplePie::get_image_link">get_image_link</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#145"><abbr title="SimplePie_Locator::is_feed">is_feed</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2747"><abbr title="SimplePie::get_image_width">get_image_width</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#2898"><abbr title="SimplePie_Item::get_latitude">get_latitude</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1716"><abbr title="SimplePie_Misc::get_curl_version">get_curl_version</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#121"><abbr title="SimplePie_Sanitize::pass_file_data">pass_file_data</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#103"><abbr title="SimplePie_Sanitize::pass_cache_data">pass_cache_data</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2773"><abbr title="SimplePie::get_image_height">get_image_height</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#197"><abbr title="SimplePie_HTTP_Parser::http_version">http_version</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#699"><abbr title="SimplePie_Item::get_copyright">get_copyright</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2576"><abbr title="SimplePie::get_latitude">get_latitude</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2001"><abbr title="SimplePie::get_title">get_title</abbr></a></td><td class="text-right">19</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#970"><abbr title="SimplePie_IRI::set_host">set_host</abbr></a></td><td class="text-right">18</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1795"><abbr title="SimplePie::get_feed_tags">get_feed_tags</abbr></a></td><td class="text-right">16</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#227"><abbr title="SimplePie_Misc::array_merge_recursive">array_merge_recursive</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1743"><abbr title="SimplePie_Misc::strip_comments">strip_comments</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parse/Date.php.html#970"><abbr title="SimplePie_Parse_Date::date_strtotime">date_strtotime</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache/File.php.html#123"><abbr title="SimplePie_Cache_File::load">load</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Registry.php.html#114"><abbr title="SimplePie_Registry::register">register</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#280"><abbr title="SimplePie_XML_Declaration_Parser::encoding_value">encoding_value</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#457"><abbr title="SimplePie_Enclosure::get_duration">get_duration</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#163"><abbr title="SimplePie_Sanitize::strip_attributes">strip_attributes</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#227"><abbr title="SimplePie_IRI::__isset">__isset</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1617"><abbr title="SimplePie::handle_content_type">handle_content_type</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#139"><abbr title="SimplePie_Sanitize::strip_htmltags">strip_htmltags</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#135"><abbr title="SimplePie_Misc::element_implode">element_implode</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2798"><abbr title="SimplePie::get_item_quantity">get_item_quantity</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#289"><abbr title="SimplePie_HTTP_Parser::name">name</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#718"><abbr title="SimplePie::set_feed_url">set_feed_url</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parse/Date.php.html#928"><abbr title="SimplePie_Parse_Date::date_asctime">date_asctime</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#2012"><abbr title="SimplePie_Misc::parse_str">parse_str</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1095"><abbr title="SimplePie::strip_htmltags">strip_htmltags</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2967"><abbr title="SimplePie::get_favicon">get_favicon</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#232"><abbr title="SimplePie_XML_Declaration_Parser::version_value">version_value</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1974"><abbr title="SimplePie::sanitize">sanitize</abbr></a></td><td class="text-right">9</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Registry.php.html#202"><abbr title="SimplePie_Registry::call">call</abbr></a></td><td class="text-right">7</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Registry.php.html#160"><abbr title="SimplePie_Registry::create">create</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parse/Date.php.html#590"><abbr title="SimplePie_Parse_Date::parse">parse</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#300"><abbr title="SimplePie_XML_Declaration_Parser::standalone_name">standalone_name</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#314"><abbr title="SimplePie_XML_Declaration_Parser::standalone_equals">standalone_equals</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#252"><abbr title="SimplePie_XML_Declaration_Parser::encoding_name">encoding_name</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#218"><abbr title="SimplePie_XML_Declaration_Parser::version_equals">version_equals</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#266"><abbr title="SimplePie_XML_Declaration_Parser::encoding_equals">encoding_equals</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Sanitize.php.html#86"><abbr title="SimplePie_Sanitize::set_image_handler">set_image_handler</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parse/Date.php.html#618"><abbr title="SimplePie_Parse_Date::add_callback">add_callback</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#2141"><abbr title="SimplePie_Misc::output_javascript">output_javascript</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1946"><abbr title="SimplePie_Misc::space_seperated_tokens">space_seperated_tokens</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Misc.php.html#1840"><abbr title="SimplePie_Misc::parse_mime">parse_mime</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Parser.php.html#335"><abbr title="SimplePie_Parser::cdata">cdata</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Restriction.php.html#110"><abbr title="SimplePie_Restriction::get_relationship">get_relationship</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#192"><abbr title="SimplePie_XML_Declaration_Parser::before_version_name">before_version_name</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Restriction.php.html#144"><abbr title="SimplePie_Restriction::get_value">get_value</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Restriction.php.html#127"><abbr title="SimplePie_Restriction::get_type">get_type</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/XML/Declaration/Parser.php.html#204"><abbr title="SimplePie_XML_Declaration_Parser::version_name">version_name</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#244"><abbr title="SimplePie_IRI::__unset">__unset</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#352"><abbr title="SimplePie_Enclosure::get_categories">get_categories</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#369"><abbr title="SimplePie_Enclosure::get_channels">get_channels</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#334"><abbr title="SimplePie_Enclosure::get_category">get_category</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#316"><abbr title="SimplePie_Enclosure::get_captions">get_captions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#280"><abbr title="SimplePie_Enclosure::get_bitrate">get_bitrate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#298"><abbr title="SimplePie_Enclosure::get_caption">get_caption</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#386"><abbr title="SimplePie_Enclosure::get_copyright">get_copyright</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#404"><abbr title="SimplePie_Enclosure::get_credit">get_credit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#546"><abbr title="SimplePie_Enclosure::get_hash">get_hash</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#564"><abbr title="SimplePie_Enclosure::get_hashes">get_hashes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#517"><abbr title="SimplePie_Enclosure::get_framerate">get_framerate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#482"><abbr title="SimplePie_Enclosure::get_expression">get_expression</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#422"><abbr title="SimplePie_Enclosure::get_credits">get_credits</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#439"><abbr title="SimplePie_Enclosure::get_description">get_description</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache/File.php.html#165"><abbr title="SimplePie_Cache_File::unlink">unlink</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache/File.php.html#151"><abbr title="SimplePie_Cache_File::touch">touch</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1113"><abbr title="SimplePie::strip_attributes">strip_attributes</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1176"><abbr title="SimplePie::set_image_handler">set_image_handler</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1067"><abbr title="SimplePie::set_stupidly_fast">set_stupidly_fast</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#1051"><abbr title="SimplePie::set_cache_name_function">set_cache_name_function</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#740"><abbr title="SimplePie::set_file">set_file</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#858"><abbr title="SimplePie::set_input_encoding">set_input_encoding</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2044"><abbr title="SimplePie::get_category">get_category</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2129"><abbr title="SimplePie::get_author">get_author</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache.php.html#123"><abbr title="SimplePie_Cache::parse_URL">parse_URL</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache/File.php.html#137"><abbr title="SimplePie_Cache_File::mtime">mtime</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Cache.php.html#82"><abbr title="SimplePie_Cache::get_handler">get_handler</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2955"><abbr title="SimplePie::set_favicon_handler">set_favicon_handler</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie.php.html#2227"><abbr title="SimplePie::get_contributor">get_contributor</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#581"><abbr title="SimplePie_Enclosure::get_height">get_height</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#599"><abbr title="SimplePie_Enclosure::get_language">get_language</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#224"><abbr title="SimplePie_HTTP_Parser::status">status</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/HTTP/Parser.php.html#441"><abbr title="SimplePie_HTTP_Parser::body">body</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#900"><abbr title="SimplePie_Enclosure::get_width">get_width</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#865"><abbr title="SimplePie_Enclosure::get_title">get_title</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#195"><abbr title="SimplePie_Locator::autodiscovery">autodiscovery</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#417"><abbr title="SimplePie_Item::get_category">get_category</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#502"><abbr title="SimplePie_Item::get_author">get_author</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#2952"><abbr title="SimplePie_Item::get_source">get_source</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Locator.php.html#68"><abbr title="SimplePie_Locator::__construct">__construct</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#906"><abbr title="SimplePie_Item::get_updated_gmdate">get_updated_gmdate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#888"><abbr title="SimplePie_Item::get_gmdate">get_gmdate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#522"><abbr title="SimplePie_Item::get_contributor">get_contributor</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#830"><abbr title="SimplePie_Enclosure::get_thumbnail">get_thumbnail</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#848"><abbr title="SimplePie_Enclosure::get_thumbnails">get_thumbnails</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#687"><abbr title="SimplePie_Enclosure::get_medium">get_medium</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#705"><abbr title="SimplePie_Enclosure::get_player">get_player</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#669"><abbr title="SimplePie_Enclosure::get_link">get_link</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#652"><abbr title="SimplePie_Enclosure::get_length">get_length</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#617"><abbr title="SimplePie_Enclosure::get_keyword">get_keyword</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#635"><abbr title="SimplePie_Enclosure::get_keywords">get_keywords</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#811"><abbr title="SimplePie_Enclosure::get_size">get_size</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#723"><abbr title="SimplePie_Enclosure::get_rating">get_rating</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#794"><abbr title="SimplePie_Enclosure::get_sampling_rate">get_sampling_rate</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#777"><abbr title="SimplePie_Enclosure::get_restrictions">get_restrictions</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#759"><abbr title="SimplePie_Enclosure::get_restriction">get_restriction</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Enclosure.php.html#741"><abbr title="SimplePie_Enclosure::get_ratings">get_ratings</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#1026"><abbr title="SimplePie_IRI::set_port">set_port</abbr></a></td><td class="text-right">4</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/IRI.php.html#1124"><abbr title="SimplePie_IRI::to_uri">to_uri</abbr></a></td><td class="text-right">3</td></tr>
+       <tr><td><a href="vendor/simplepie/simplepie/library/SimplePie/Item.php.html#927"><abbr title="SimplePie_Item::get_permalink">get_permalink</abbr></a></td><td class="text-right">3</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="http://github.com/sebastianbergmann/php-code-coverage" target="_top">PHP_CodeCoverage 2.0.11</a> using <a href="http://php.net/" target="_top">PHP 5.5.19-1+deb.sury.org~precise+1</a> and <a href="http://phpunit.de/">PHPUnit 4.3.5</a> at Fri Dec 12 22:27:31 CET 2014.</small>
+    </p>
+   </footer>
+  </div>
+  <script src="../js/jquery.min.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../js/holder.js" type="text/javascript"></script>
+  <script src="../js/d3.min.js" type="text/javascript"></script>
+  <script src="../js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([9,1,2,2,0,4,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([254,3,3,3,4,6,5,7,11,12,0,28], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[15.495668912416,394,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#413\">SimplePie<\/a>"],[0,7,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Cache.php.html#55\">SimplePie_Cache<\/a>"],[0,16,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Cache\/File.php.html#51\">SimplePie_Cache_File<\/a>"],[0,61,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Content\/Type\/Sniffer.php.html#60\">SimplePie_Content_Type_Sniffer<\/a>"],[24.336283185841,171,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#55\">SimplePie_Enclosure<\/a>"],[0,51,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/File.php.html#56\">SimplePie_File<\/a>"],[0,58,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#52\">SimplePie_HTTP_Parser<\/a>"],[46.234676007005,224,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#56\">SimplePie_IRI<\/a>"],[19.336143308746,530,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#56\">SimplePie_Item<\/a>"],[0,87,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Locator.php.html#53\">SimplePie_Locator<\/a>"],[0.84856396866841,980,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#50\">SimplePie_Misc<\/a>"],[42.211055276382,52,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parse\/Date.php.html#52\">SimplePie_Parse_Date<\/a>"],[0,73,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parser.php.html#54\">SimplePie_Parser<\/a>"],[47.826086956522,16,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Registry.php.html#52\">SimplePie_Registry<\/a>"],[23.529411764706,8,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Restriction.php.html#55\">SimplePie_Restriction<\/a>"],[47.887323943662,91,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#54\">SimplePie_Sanitize<\/a>"],[0,37,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/XML\/Declaration\/Parser.php.html#52\">SimplePie_XML_Declaration_Parser<\/a>"],[0,19,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/gzdecode.php.html#53\">SimplePie_gzdecode<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.scatter.onlyCircles(false);
+    chart.tooltipContent(function(key, y, e, graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[31.818181818182,7,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#625\">SimplePie::__construct<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#658\">SimplePie::__toString<\/a>"],[16.666666666667,8,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#666\">SimplePie::__destruct<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#698\">SimplePie::force_feed<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#718\">SimplePie::set_feed_url<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#740\">SimplePie::set_file<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#764\">SimplePie::set_raw_data<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#778\">SimplePie::set_timeout<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#789\">SimplePie::force_fsockopen<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#803\">SimplePie::enable_cache<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#814\">SimplePie::set_cache_duration<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#825\">SimplePie::set_autodiscovery_cache_duration<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#835\">SimplePie::set_cache_location<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#845\">SimplePie::enable_order_by_date<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#858\">SimplePie::set_input_encoding<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#882\">SimplePie::set_autodiscovery_level<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#894\">SimplePie::get_registry<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#910\">SimplePie::set_cache_class<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#918\">SimplePie::set_locator_class<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#926\">SimplePie::set_parser_class<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#934\">SimplePie::set_file_class<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#942\">SimplePie::set_sanitize_class<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#950\">SimplePie::set_item_class<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#958\">SimplePie::set_author_class<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#966\">SimplePie::set_category_class<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#974\">SimplePie::set_enclosure_class<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#982\">SimplePie::set_caption_class<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#990\">SimplePie::set_copyright_class<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#998\">SimplePie::set_credit_class<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1006\">SimplePie::set_rating_class<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1014\">SimplePie::set_restriction_class<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1022\">SimplePie::set_content_type_sniffer_class<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1030\">SimplePie::set_source_class<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1041\">SimplePie::set_useragent<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1051\">SimplePie::set_cache_name_function<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1067\">SimplePie::set_stupidly_fast<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1085\">SimplePie::set_max_checked_feeds<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1090\">SimplePie::remove_div<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1095\">SimplePie::strip_htmltags<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1108\">SimplePie::encode_instead_of_strip<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1113\">SimplePie::strip_attributes<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1144\">SimplePie::set_output_encoding<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1149\">SimplePie::strip_comments<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1165\">SimplePie::set_url_replacements<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1176\">SimplePie::set_image_handler<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1193\">SimplePie::set_item_limit<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1203\">SimplePie::enable_exceptions<\/a>"],[0,38,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1217\">SimplePie::init<\/a>"],[0,31,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1408\">SimplePie::fetch_data<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1569\">SimplePie::error<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1582\">SimplePie::get_raw_data<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1593\">SimplePie::get_encoding<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1617\">SimplePie::handle_content_type<\/a>"],[4.7619047619048,23,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1660\">SimplePie::get_type<\/a>"],[75,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1752\">SimplePie::subscribe_url<\/a>"],[53.846153846154,9,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1795\">SimplePie::get_feed_tags<\/a>"],[48.571428571429,12,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1843\">SimplePie::get_channel_tags<\/a>"],[0,10,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1900\">SimplePie::get_image_tags<\/a>"],[83.333333333333,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1948\">SimplePie::get_base<\/a>"],[12.5,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#1974\">SimplePie::sanitize<\/a>"],[43.75,8,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2001\">SimplePie::get_title<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2044\">SimplePie::get_category<\/a>"],[0,10,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2065\">SimplePie::get_categories<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2129\">SimplePie::get_author<\/a>"],[0,19,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2150\">SimplePie::get_authors<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2227\">SimplePie::get_contributor<\/a>"],[0,16,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2248\">SimplePie::get_contributors<\/a>"],[100,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2314\">SimplePie::get_link<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2338\">SimplePie::get_permalink<\/a>"],[67.857142857143,18,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2352\">SimplePie::get_links<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2426\">SimplePie::get_all_discovered_feeds<\/a>"],[35,10,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2440\">SimplePie::get_description<\/a>"],[0,6,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2492\">SimplePie::get_copyright<\/a>"],[0,8,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2528\">SimplePie::get_language<\/a>"],[0,4,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2576\">SimplePie::get_latitude<\/a>"],[0,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2605\">SimplePie::get_longitude<\/a>"],[0,6,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2634\">SimplePie::get_image_title<\/a>"],[0,7,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2673\">SimplePie::get_image_url<\/a>"],[0,4,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2717\">SimplePie::get_image_link<\/a>"],[0,4,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2747\">SimplePie::get_image_width<\/a>"],[0,4,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2773\">SimplePie::get_image_height<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2798\">SimplePie::get_item_quantity<\/a>"],[80,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2824\">SimplePie::get_item<\/a>"],[61.428571428571,21,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2850\">SimplePie::get_items<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2955\">SimplePie::set_favicon_handler<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2967\">SimplePie::get_favicon<\/a>"],[0,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#2987\">SimplePie::__call<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#3017\">SimplePie::sort_items<\/a>"],[0,9,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie.php.html#3035\">SimplePie::merge_items<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Cache.php.html#72\">SimplePie_Cache::__construct<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Cache.php.html#82\">SimplePie_Cache::get_handler<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Cache.php.html#100\">SimplePie_Cache::create<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Cache.php.html#112\">SimplePie_Cache::register<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Cache.php.html#123\">SimplePie_Cache::parse_URL<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Cache\/File.php.html#89\">SimplePie_Cache_File::__construct<\/a>"],[0,6,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Cache\/File.php.html#103\">SimplePie_Cache_File::save<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Cache\/File.php.html#123\">SimplePie_Cache_File::load<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Cache\/File.php.html#137\">SimplePie_Cache_File::mtime<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Cache\/File.php.html#151\">SimplePie_Cache_File::touch<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Cache\/File.php.html#165\">SimplePie_Cache_File::unlink<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Content\/Type\/Sniffer.php.html#74\">SimplePie_Content_Type_Sniffer::__construct<\/a>"],[0,16,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Content\/Type\/Sniffer.php.html#84\">SimplePie_Content_Type_Sniffer::get_type<\/a>"],[0,6,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Content\/Type\/Sniffer.php.html#149\">SimplePie_Content_Type_Sniffer::text_or_binary<\/a>"],[0,12,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Content\/Type\/Sniffer.php.html#173\">SimplePie_Content_Type_Sniffer::unknown<\/a>"],[0,7,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Content\/Type\/Sniffer.php.html#222\">SimplePie_Content_Type_Sniffer::image<\/a>"],[0,19,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Content\/Type\/Sniffer.php.html#256\">SimplePie_Content_Type_Sniffer::feed_or_html<\/a>"],[87.878787878788,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#227\">SimplePie_Enclosure::__construct<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#269\">SimplePie_Enclosure::__toString<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#280\">SimplePie_Enclosure::get_bitrate<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#298\">SimplePie_Enclosure::get_caption<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#316\">SimplePie_Enclosure::get_captions<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#334\">SimplePie_Enclosure::get_category<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#352\">SimplePie_Enclosure::get_categories<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#369\">SimplePie_Enclosure::get_channels<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#386\">SimplePie_Enclosure::get_copyright<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#404\">SimplePie_Enclosure::get_credit<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#422\">SimplePie_Enclosure::get_credits<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#439\">SimplePie_Enclosure::get_description<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#457\">SimplePie_Enclosure::get_duration<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#482\">SimplePie_Enclosure::get_expression<\/a>"],[75,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#499\">SimplePie_Enclosure::get_extension<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#517\">SimplePie_Enclosure::get_framerate<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#534\">SimplePie_Enclosure::get_handler<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#546\">SimplePie_Enclosure::get_hash<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#564\">SimplePie_Enclosure::get_hashes<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#581\">SimplePie_Enclosure::get_height<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#599\">SimplePie_Enclosure::get_language<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#617\">SimplePie_Enclosure::get_keyword<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#635\">SimplePie_Enclosure::get_keywords<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#652\">SimplePie_Enclosure::get_length<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#669\">SimplePie_Enclosure::get_link<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#687\">SimplePie_Enclosure::get_medium<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#705\">SimplePie_Enclosure::get_player<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#723\">SimplePie_Enclosure::get_rating<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#741\">SimplePie_Enclosure::get_ratings<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#759\">SimplePie_Enclosure::get_restriction<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#777\">SimplePie_Enclosure::get_restrictions<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#794\">SimplePie_Enclosure::get_sampling_rate<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#811\">SimplePie_Enclosure::get_size<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#830\">SimplePie_Enclosure::get_thumbnail<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#848\">SimplePie_Enclosure::get_thumbnails<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#865\">SimplePie_Enclosure::get_title<\/a>"],[100,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#883\">SimplePie_Enclosure::get_type<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#900\">SimplePie_Enclosure::get_width<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#920\">SimplePie_Enclosure::native_embed<\/a>"],[0,40,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#970\">SimplePie_Enclosure::embed<\/a>"],[57.5,54,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Enclosure.php.html#1205\">SimplePie_Enclosure::get_real_type<\/a>"],[0,51,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/File.php.html#68\">SimplePie_File::__construct<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#136\">SimplePie_HTTP_Parser::__construct<\/a>"],[0,6,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#147\">SimplePie_HTTP_Parser::parse<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#175\">SimplePie_HTTP_Parser::has_data<\/a>"],[0,6,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#185\">SimplePie_HTTP_Parser::is_linear_whitespace<\/a>"],[0,4,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#197\">SimplePie_HTTP_Parser::http_version<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#224\">SimplePie_HTTP_Parser::status<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#241\">SimplePie_HTTP_Parser::reason<\/a>"],[0,7,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#252\">SimplePie_HTTP_Parser::new_line<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#289\">SimplePie_HTTP_Parser::name<\/a>"],[0,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#315\">SimplePie_HTTP_Parser::linear_whitespace<\/a>"],[0,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#335\">SimplePie_HTTP_Parser::value<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#374\">SimplePie_HTTP_Parser::value_char<\/a>"],[0,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#385\">SimplePie_HTTP_Parser::quote<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#420\">SimplePie_HTTP_Parser::quote_char<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#431\">SimplePie_HTTP_Parser::quote_escaped<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#441\">SimplePie_HTTP_Parser::body<\/a>"],[0,7,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/HTTP\/Parser.php.html#458\">SimplePie_HTTP_Parser::chunked<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#138\">SimplePie_IRI::__toString<\/a>"],[0,8,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#149\">SimplePie_IRI::__set<\/a>"],[72,12,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#174\">SimplePie_IRI::__get<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#227\">SimplePie_IRI::__isset<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#244\">SimplePie_IRI::__unset<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#257\">SimplePie_IRI::__construct<\/a>"],[37.931034482759,20,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#271\">SimplePie_IRI::absolutize<\/a>"],[88,10,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#364\">SimplePie_IRI::parse_iri<\/a>"],[8.8235294117647,14,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#404\">SimplePie_IRI::remove_dot_segments<\/a>"],[9.8591549295775,28,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#467\">SimplePie_IRI::replace_invalid_with_pct_encoding<\/a>"],[0,36,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#603\">SimplePie_IRI::remove_iunreserved_percent_encoded<\/a>"],[60,13,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#735\">SimplePie_IRI::scheme_normalization<\/a>"],[81.25,12,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#769\">SimplePie_IRI::is_valid<\/a>"],[88.888888888889,9,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#800\">SimplePie_IRI::set_iri<\/a>"],[77.777777777778,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#857\">SimplePie_IRI::set_scheme<\/a>"],[76.923076923077,9,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#882\">SimplePie_IRI::set_authority<\/a>"],[71.428571428571,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#948\">SimplePie_IRI::set_userinfo<\/a>"],[38.461538461538,7,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#970\">SimplePie_IRI::set_host<\/a>"],[40,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#1026\">SimplePie_IRI::set_port<\/a>"],[87.5,4,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#1052\">SimplePie_IRI::set_path<\/a>"],[100,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#1085\">SimplePie_IRI::set_query<\/a>"],[71.428571428571,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#1105\">SimplePie_IRI::set_fragment<\/a>"],[53.846153846154,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#1124\">SimplePie_IRI::to_uri<\/a>"],[89.285714285714,10,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#1149\">SimplePie_IRI::get_iri<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#1190\">SimplePie_IRI::get_uri<\/a>"],[70.588235294118,7,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#1200\">SimplePie_IRI::get_iauthority<\/a>"],[75,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/IRI.php.html#1230\">SimplePie_IRI::get_authority<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#91\">SimplePie_Item::__construct<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#105\">SimplePie_Item::set_registry<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#115\">SimplePie_Item::__toString<\/a>"],[0,4,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#123\">SimplePie_Item::__destruct<\/a>"],[100,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#145\">SimplePie_Item::get_item_tags<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#165\">SimplePie_Item::get_base<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#180\">SimplePie_Item::sanitize<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#194\">SimplePie_Item::get_feed<\/a>"],[0,12,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#213\">SimplePie_Item::get_id<\/a>"],[44.444444444444,9,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#268\">SimplePie_Item::get_title<\/a>"],[27.272727272727,11,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#323\">SimplePie_Item::get_description<\/a>"],[0,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#386\">SimplePie_Item::get_content<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#417\">SimplePie_Item::get_category<\/a>"],[0,10,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#438\">SimplePie_Item::get_categories<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#502\">SimplePie_Item::get_author<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#522\">SimplePie_Item::get_contributor<\/a>"],[0,16,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#543\">SimplePie_Item::get_contributors<\/a>"],[0,23,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#609\">SimplePie_Item::get_authors<\/a>"],[0,4,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#699\">SimplePie_Item::get_copyright<\/a>"],[57.777777777778,14,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#733\">SimplePie_Item::get_date<\/a>"],[0,7,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#812\">SimplePie_Item::get_updated_date<\/a>"],[0,4,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#865\">SimplePie_Item::get_local_date<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#888\">SimplePie_Item::get_gmdate<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#906\">SimplePie_Item::get_updated_gmdate<\/a>"],[62.5,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#927\">SimplePie_Item::get_permalink<\/a>"],[80,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#953\">SimplePie_Item::get_link<\/a>"],[59.649122807018,19,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#975\">SimplePie_Item::get_links<\/a>"],[80,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#1059\">SimplePie_Item::get_enclosure<\/a>"],[18.257261410788,356,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#1086\">SimplePie_Item::get_enclosures<\/a>"],[0,4,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#2898\">SimplePie_Item::get_latitude<\/a>"],[0,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#2926\">SimplePie_Item::get_longitude<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Item.php.html#2952\">SimplePie_Item::get_source<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Locator.php.html#68\">SimplePie_Locator::__construct<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Locator.php.html#89\">SimplePie_Locator::set_registry<\/a>"],[0,17,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Locator.php.html#94\">SimplePie_Locator::find<\/a>"],[0,4,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Locator.php.html#145\">SimplePie_Locator::is_feed<\/a>"],[0,6,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Locator.php.html#170\">SimplePie_Locator::get_base<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Locator.php.html#195\">SimplePie_Locator::autodiscovery<\/a>"],[0,22,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Locator.php.html#213\">SimplePie_Locator::search_elements_by_tag<\/a>"],[0,13,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Locator.php.html#264\">SimplePie_Locator::get_links<\/a>"],[0,10,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Locator.php.html#315\">SimplePie_Locator::extension<\/a>"],[0,10,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Locator.php.html#344\">SimplePie_Locator::body<\/a>"],[0,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#52\">SimplePie_Misc::time_hms<\/a>"],[80,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#80\">SimplePie_Misc::absolutize_url<\/a>"],[0,8,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#98\">SimplePie_Misc::get_element<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#135\">SimplePie_Misc::element_implode<\/a>"],[0,10,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#154\">SimplePie_Misc::error<\/a>"],[0,13,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#195\">SimplePie_Misc::fix_protocol<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#227\">SimplePie_Misc::array_merge_recursive<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#244\">SimplePie_Misc::parse_url<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#256\">SimplePie_Misc::compress_parse_url<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#267\">SimplePie_Misc::normalize_url<\/a>"],[0,11,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#273\">SimplePie_Misc::percent_encoding_normalization<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#293\">SimplePie_Misc::windows_1252_to_utf8<\/a>"],[0,10,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#308\">SimplePie_Misc::change_encoding<\/a>"],[0,8,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#349\">SimplePie_Misc::change_encoding_mbstring<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#387\">SimplePie_Misc::change_encoding_iconv<\/a>"],[0,808,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#403\">SimplePie_Misc::encoding<\/a>"],[0,4,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#1716\">SimplePie_Misc::get_curl_version<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#1743\">SimplePie_Misc::strip_comments<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#1761\">SimplePie_Misc::parse_date<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#1774\">SimplePie_Misc::entities_decode<\/a>"],[0,10,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#1786\">SimplePie_Misc::uncomment_rfc822<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#1840\">SimplePie_Misc::parse_mime<\/a>"],[0,10,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#1852\">SimplePie_Misc::atom_03_construct_type<\/a>"],[0,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#1888\">SimplePie_Misc::atom_10_construct_type<\/a>"],[0,7,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#1910\">SimplePie_Misc::atom_10_content_construct_type<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#1941\">SimplePie_Misc::is_isegment_nz_nc<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#1946\">SimplePie_Misc::space_seperated_tokens<\/a>"],[0,6,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#1972\">SimplePie_Misc::codepoint_to_utf8<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#2012\">SimplePie_Misc::parse_str<\/a>"],[0,21,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#2041\">SimplePie_Misc::xml_encoding<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#2141\">SimplePie_Misc::output_javascript<\/a>"],[0,6,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#2180\">SimplePie_Misc::get_build<\/a>"],[0,9,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#2212\">SimplePie_Misc::debug<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Misc.php.html#2259\">SimplePie_Misc::silence_errors<\/a>"],[100,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parse\/Date.php.html#542\">SimplePie_Parse_Date::__construct<\/a>"],[100,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parse\/Date.php.html#572\">SimplePie_Parse_Date::get<\/a>"],[63.636363636364,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parse\/Date.php.html#590\">SimplePie_Parse_Date::parse<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parse\/Date.php.html#618\">SimplePie_Parse_Date::add_callback<\/a>"],[40,8,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parse\/Date.php.html#638\">SimplePie_Parse_Date::date_w3cdtf<\/a>"],[22.857142857143,10,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parse\/Date.php.html#710\">SimplePie_Parse_Date::remove_rfc2822_comments<\/a>"],[73.913043478261,9,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parse\/Date.php.html#770\">SimplePie_Parse_Date::date_rfc2822<\/a>"],[0,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parse\/Date.php.html#863\">SimplePie_Parse_Date::date_rfc850<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parse\/Date.php.html#928\">SimplePie_Parse_Date::date_asctime<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parse\/Date.php.html#970\">SimplePie_Parse_Date::date_strtotime<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parser.php.html#73\">SimplePie_Parser::set_registry<\/a>"],[0,26,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parser.php.html#78\">SimplePie_Parser::parse<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parser.php.html#238\">SimplePie_Parser::get_error_code<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parser.php.html#243\">SimplePie_Parser::get_error_string<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parser.php.html#248\">SimplePie_Parser::get_current_line<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parser.php.html#253\">SimplePie_Parser::get_current_column<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parser.php.html#258\">SimplePie_Parser::get_current_byte<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parser.php.html#263\">SimplePie_Parser::get_data<\/a>"],[0,23,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parser.php.html#268\">SimplePie_Parser::tag_open<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parser.php.html#335\">SimplePie_Parser::cdata<\/a>"],[0,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parser.php.html#347\">SimplePie_Parser::tag_close<\/a>"],[0,10,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Parser.php.html#370\">SimplePie_Parser::split_ns<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Registry.php.html#104\">SimplePie_Registry::__construct<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Registry.php.html#114\">SimplePie_Registry::register<\/a>"],[71.428571428571,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Registry.php.html#139\">SimplePie_Registry::get_class<\/a>"],[63.157894736842,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Registry.php.html#160\">SimplePie_Registry::create<\/a>"],[41.666666666667,4,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Registry.php.html#202\">SimplePie_Registry::call<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Restriction.php.html#87\">SimplePie_Restriction::__construct<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Restriction.php.html#99\">SimplePie_Restriction::__toString<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Restriction.php.html#110\">SimplePie_Restriction::get_relationship<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Restriction.php.html#127\">SimplePie_Restriction::get_type<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Restriction.php.html#144\">SimplePie_Restriction::get_value<\/a>"],[100,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#75\">SimplePie_Sanitize::__construct<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#81\">SimplePie_Sanitize::remove_div<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#86\">SimplePie_Sanitize::set_image_handler<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#98\">SimplePie_Sanitize::set_registry<\/a>"],[0,4,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#103\">SimplePie_Sanitize::pass_cache_data<\/a>"],[0,4,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#121\">SimplePie_Sanitize::pass_file_data<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#139\">SimplePie_Sanitize::strip_htmltags<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#158\">SimplePie_Sanitize::encode_instead_of_strip<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#163\">SimplePie_Sanitize::strip_attributes<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#182\">SimplePie_Sanitize::strip_comments<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#187\">SimplePie_Sanitize::set_output_encoding<\/a>"],[100,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#203\">SimplePie_Sanitize::set_url_replacements<\/a>"],[65.420560747664,33,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#225\">SimplePie_Sanitize::sanitize<\/a>"],[84.615384615385,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#383\">SimplePie_Sanitize::preprocess<\/a>"],[100,8,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#406\">SimplePie_Sanitize::replace_urls<\/a>"],[0,6,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#433\">SimplePie_Sanitize::do_strip_htmltags<\/a>"],[20,16,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#458\">SimplePie_Sanitize::strip_tag<\/a>"],[100,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/Sanitize.php.html#543\">SimplePie_Sanitize::strip_attr<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/XML\/Declaration\/Parser.php.html#116\">SimplePie_XML_Declaration_Parser::__construct<\/a>"],[0,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/XML\/Declaration\/Parser.php.html#128\">SimplePie_XML_Declaration_Parser::parse<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/XML\/Declaration\/Parser.php.html#155\">SimplePie_XML_Declaration_Parser::has_data<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/XML\/Declaration\/Parser.php.html#165\">SimplePie_XML_Declaration_Parser::skip_whitespace<\/a>"],[0,4,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/XML\/Declaration\/Parser.php.html#175\">SimplePie_XML_Declaration_Parser::get_value<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/XML\/Declaration\/Parser.php.html#192\">SimplePie_XML_Declaration_Parser::before_version_name<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/XML\/Declaration\/Parser.php.html#204\">SimplePie_XML_Declaration_Parser::version_name<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/XML\/Declaration\/Parser.php.html#218\">SimplePie_XML_Declaration_Parser::version_equals<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/XML\/Declaration\/Parser.php.html#232\">SimplePie_XML_Declaration_Parser::version_value<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/XML\/Declaration\/Parser.php.html#252\">SimplePie_XML_Declaration_Parser::encoding_name<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/XML\/Declaration\/Parser.php.html#266\">SimplePie_XML_Declaration_Parser::encoding_equals<\/a>"],[0,3,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/XML\/Declaration\/Parser.php.html#280\">SimplePie_XML_Declaration_Parser::encoding_value<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/XML\/Declaration\/Parser.php.html#300\">SimplePie_XML_Declaration_Parser::standalone_name<\/a>"],[0,2,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/XML\/Declaration\/Parser.php.html#314\">SimplePie_XML_Declaration_Parser::standalone_equals<\/a>"],[0,5,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/XML\/Declaration\/Parser.php.html#328\">SimplePie_XML_Declaration_Parser::standalone_value<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/gzdecode.php.html#181\">SimplePie_gzdecode::__set<\/a>"],[0,1,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/gzdecode.php.html#191\">SimplePie_gzdecode::__construct<\/a>"],[0,17,"<a href=\"vendor\/simplepie\/simplepie\/library\/SimplePie\/gzdecode.php.html#202\">SimplePie_gzdecode::parse<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
