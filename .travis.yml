@@ -6,6 +6,7 @@ php:
 
 before_script:
 - wget https://scrutinizer-ci.com/ocular.phar
+- composer config
 - composer install
 
 script:
