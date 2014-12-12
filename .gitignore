@@ -17,7 +17,7 @@ Thumbs.db
 # Package handling
 
 composer.lock
-vendor/.git
+
 
 
 # Temporary files
