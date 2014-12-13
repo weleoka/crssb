@@ -7,9 +7,9 @@ The B version has unit testing. crssb.
 
 By Kai Weeks, me@eee.se.
 
-[![Build Status](https://travis-ci.org/weleoka/Mcrssb.svg?branch=master)](https://travis-ci.org/weleoka/Mcrssb)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/weleoka/Mcrssb/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/weleoka/Mcrssb/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/weleoka/Mcrssb/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/weleoka/Mcrssb/?branch=master)
+[![Build Status](https://travis-ci.org/weleoka/crssb.svg?branch=master)](https://travis-ci.org/weleoka/crssb)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/weleoka/crssb/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/weleoka/crssb/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/weleoka/crssb/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/weleoka/crssb/?branch=master)
 
 The PHP Class has the functions to output latest feed, a brief list of recent feeds, and then the whole feed entity.
 oneFeed(), streamlineFeed() and printFeed() respectively give output. 
