@@ -3,7 +3,7 @@
 "type": "library",
 "description": "Simple Pie wrapper CRSSB for simplepie",
 "keywords": ["rss", "education", "wrapper"],
-"homepage": "https://github.com/weleoka/Mcrssb",
+"homepage": "https://github.com/weleoka/crssb",
 "license": "MIT",
 "authors": [
 {
